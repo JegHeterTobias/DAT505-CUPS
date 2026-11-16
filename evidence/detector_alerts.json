@@ -1,0 +1,128 @@
+{
+  "capture": "/Users/tobiassommervold/DAT505-CUPS/pcap_files/cups_attack.pcap",
+  "timestamp": "2026-11-14T18:41:40",
+  "packets_inspected": 29,
+  "alert_count": 15,
+  "alerts": [
+    {
+      "packet": 1,
+      "severity": "HIGH",
+      "type": "Untrusted printer advertisement",
+      "source": "172.21.0.3",
+      "destination": "172.21.0.2",
+      "details": "Advertised 172.21.0.3:8631, queue=printers/lab"
+    },
+    {
+      "packet": 2,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 4,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 5,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 7,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 10,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 12,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 14,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 16,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 18,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 19,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 21,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 24,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 26,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    },
+    {
+      "packet": 28,
+      "severity": "INFO",
+      "type": "IPP connection observed",
+      "source": "172.21.0.2",
+      "destination": "172.21.0.3",
+      "details": "TCP connection to port 8631"
+    }
+  ]
+}

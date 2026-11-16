@@ -1,0 +1,4 @@
+packet,severity,type,source,destination,details
+1,INFO,Advertised IPP printer,172.21.0.3,172.21.0.2,Printer URI: ipp://172.21.0.3:8631/printers/lab
+2,INFO,IPP connection attempt,172.21.0.2,172.21.0.3,New TCP connection attempt to IPP port 8631
+16,INFO,IPP connection attempt,172.21.0.2,172.21.0.3,New TCP connection attempt to IPP port 8631

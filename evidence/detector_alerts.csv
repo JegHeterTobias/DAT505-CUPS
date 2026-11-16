@@ -1,0 +1,16 @@
+packet,severity,type,source,destination,details
+1,HIGH,Untrusted printer advertisement,172.21.0.3,172.21.0.2,"Advertised 172.21.0.3:8631, queue=printers/lab"
+2,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+4,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+5,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+7,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+10,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+12,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+14,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+16,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+18,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+19,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+21,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+24,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+26,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631
+28,INFO,IPP connection observed,172.21.0.2,172.21.0.3,TCP connection to port 8631

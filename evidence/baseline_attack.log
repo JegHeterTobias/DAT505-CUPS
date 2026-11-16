@@ -1,0 +1,121 @@
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 process_browse_data() in THREAD 140737439853312
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 browse packet received from 172.21.0.3
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 process_browse_data: location: |Lab|
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 process_browse_data: info: |Controlled Lab Printer|
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 CUPS browsing: Remote host: 172.21.0.3; Port: 8631; Remote queue name: lab; Service Name: Controlled Lab Printer @ 172.21.0.3
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 Found CUPS queue/class: lab on host 172.21.0.3.
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: printer-* event
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 cups-browsed (): cupsEnumDests
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 free_local_printer() in THREAD 140737439853312
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 Matching printer "Controlled_Lab_Printer_172_21_0_3" with properties Host = "172.21.0.3", Port = 8631, Service Name = "Controlled Lab Printer @ 172.21.0.3", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 All BrowseFilter lines matched or skipped, accepting printer Controlled_Lab_Printer_172_21_0_3
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 update_netifs() in THREAD 140737439853312
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.21.0.2, c3cc51a11a58, 172.21.0.2*), lo (::1)
+cups-1  | Sat Nov 14 17:34:03 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.21.0.3:8631/printers/lab
+cups-1  | Sat Nov 14 17:34:03 2026 Full list of all IPP attributes:
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: attributes-charset
+cups-1  | Sat Nov 14 17:34:03 2026   Value: utf-8
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: utf-8
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: attributes-natural-language
+cups-1  | Sat Nov 14 17:34:03 2026   Value: en
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: en
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: charset-configured
+cups-1  | Sat Nov 14 17:34:03 2026   Value: utf-8
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: utf-8
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: charset-supported
+cups-1  | Sat Nov 14 17:34:03 2026   Value: utf-8
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: utf-8
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: compression-supported
+cups-1  | Sat Nov 14 17:34:03 2026   Value: none
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: none
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: document-format-default
+cups-1  | Sat Nov 14 17:34:03 2026   Value: application/pdf
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: application/pdf
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: document-format-supported
+cups-1  | Sat Nov 14 17:34:03 2026   Value: application/pdf
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: application/pdf
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: generated-natural-language-supported
+cups-1  | Sat Nov 14 17:34:03 2026   Value: en
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: en
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: ipp-versions-supported
+cups-1  | Sat Nov 14 17:34:03 2026   Value: 1.1
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: 1.1
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: multiple-document-jobs-supported
+cups-1  | Sat Nov 14 17:34:03 2026   Value: false
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: natural-language-configured
+cups-1  | Sat Nov 14 17:34:03 2026   Value: en
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: en
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: operations-supported
+cups-1  | Sat Nov 14 17:34:03 2026   Value: Print-Job,Validate-Job,Cancel-Job,Get-Job-Attributes,Get-Printer-Attributes
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: pdl-override-supported
+cups-1  | Sat Nov 14 17:34:03 2026   Value: not-attempted
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: not-attempted
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: printer-info
+cups-1  | Sat Nov 14 17:34:03 2026   Value: Printer using ipp-printer.py
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: Printer using ipp-printer.py
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: printer-is-accepting-jobs
+cups-1  | Sat Nov 14 17:34:03 2026   Value: true
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: printer-make-and-model
+cups-1  | Sat Nov 14 17:34:03 2026   Value: h2g2bob's ipp-printer.py 0.00
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: h2g2bob's ipp-printer.py 0.00
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: printer-name
+cups-1  | Sat Nov 14 17:34:03 2026   Value: ipp-printer.py
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: ipp-printer.py
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: printer-state
+cups-1  | Sat Nov 14 17:34:03 2026   Value: idle
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: printer-state-reasons
+cups-1  | Sat Nov 14 17:34:03 2026   Value: none
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: none
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: printer-up-time
+cups-1  | Sat Nov 14 17:34:03 2026   Value: 1794677643
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: printer-uri-supported
+cups-1  | Sat Nov 14 17:34:03 2026   Value: ipp://localhost:1234/printer
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: ipp://localhost:1234/printer
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: queued-job-count
+cups-1  | Sat Nov 14 17:34:03 2026   Value: 0
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: uri-authentication-supported
+cups-1  | Sat Nov 14 17:34:03 2026   Value: none
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: none
+cups-1  | Sat Nov 14 17:34:03 2026   Attr: uri-security-supported
+cups-1  | Sat Nov 14 17:34:03 2026   Value: none
+cups-1  | Sat Nov 14 17:34:03 2026   Keyword: none
+cups-1  | Sat Nov 14 17:34:03 2026 Polling "media-col-database" attribute separately.
+cups-1  | Sat Nov 14 17:34:03 2026 
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 === Remote printer overview ===
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 ===============================
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 === Remote printer overview ===
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 Printer ipp://172.21.0.3:8631/printers/lab (172.21.0.3, IP not determined): Local queue Controlled_Lab_Printer_172_21_0_3, Remote CUPS Printer, Slave of None (To be created/updated)
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 ===============================
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 DNS-SD IDs: Service name: "Controlled Lab Printer @ 172.21.0.3", Service type: "", Domain: ""
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 checking queues in 0s
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 update_cups_queues() in THREAD 140737471985120
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 Processing printer list ...
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 === Remote printer overview ===
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 Printer ipp://172.21.0.3:8631/printers/lab (172.21.0.3, IP not determined): Local queue Controlled_Lab_Printer_172_21_0_3, Remote CUPS Printer, Slave of None (To be created/updated)
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 ===============================
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 === Remote printer overview ===
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 Printer ipp://172.21.0.3:8631/printers/lab (172.21.0.3, IP not determined): Local queue Controlled_Lab_Printer_172_21_0_3, Remote CUPS Printer, Slave of None (To be created/updated)
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 ===============================
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 listening
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 create_queue() in THREAD 140737354135232
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Creating/Updating CUPS queue Controlled_Lab_Printer_172_21_0_3
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Creating permanent CUPS queue Controlled_Lab_Printer_172_21_0_3.
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Loading saved printer options for Controlled_Lab_Printer_172_21_0_3 from /var/cache/cups/cups-browsed-options-Controlled_Lab_Printer_172_21_0_3
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Failed reading file /var/cache/cups/cups-browsed-options-Controlled_Lab_Printer_172_21_0_3, probably no options recorded yet
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Print queue Controlled_Lab_Printer_172_21_0_3 is for remote CUPS queue(s) and we get notifications from CUPS, using implicit class device URI implicitclass://Controlled_Lab_Printer_172_21_0_3/
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 PPD generation successful: PDF PPD generated.
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Created temporary PPD file: /tmp/000016afd92a6
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Using PPD /tmp/000016afd92a6 for queue Controlled_Lab_Printer_172_21_0_3.
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Editing PPD file /tmp/000016afd92a6 for printer Controlled_Lab_Printer_172_21_0_3, setting the option defaults of the previous cups-browsed session and doing client-side filtering of the job, saving the resulting PPD in /tmp/000016afda8bb.
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Non-raw queue Controlled_Lab_Printer_172_21_0_3 with PPD file: /tmp/000016afda8bb
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 [CUPS Notification] Printer state change on printer Controlled_Lab_Printer_172_21_0_3: Now accepting jobs.
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 [CUPS Notification] Printer state reasons: paused
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 [CUPS Notification] Printer state change on printer Controlled_Lab_Printer_172_21_0_3: Printer "Controlled_Lab_Printer_172_21_0_3" state changed to idle.
+cups-1  | Sat Nov 14 17:34:03 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Print queue update 1 of this series: Controlled_Lab_Printer_172_21_0_3
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Unsetting printer-is-shared bit.
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 Failed reading file /var/cache/cups/cups-browsed-remote-default-printer
+cups-1  | Sat Nov 14 17:34:03 2026 140737354135232 starting BrowseTimeout timer for Controlled_Lab_Printer_172_21_0_3 (300s)

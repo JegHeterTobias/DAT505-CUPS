@@ -1,0 +1,2 @@
+packet,severity,type,source,destination,details
+1,WARNING,Malformed printer advertisement,172.21.0.3,172.21.0.2,Unexpected CUPS browse packet format

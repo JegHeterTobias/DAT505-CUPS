@@ -1,0 +1,103 @@
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 Caught signal 15, shutting down ...
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 main loop exited
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 update_cups_queues() in THREAD 140737471985120
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 Processing printer list ...
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 === Remote printer overview ===
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 Printer ipp://172.21.0.3:8631/printers/lab (172.21.0.3, IP not determined): Local queue Controlled_Lab_Printer_172_21_0_3, Remote CUPS Printer, Slave of None (Disappeared)
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 Printer ipp://172.21.0.3:8631/printers/lab_variant (172.21.0.3, IP not determined): Local queue Controlled_Lab_Printer_172_21_0_3, Remote CUPS Printer, Slave of <DELETED> (Disappeared)
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 ===============================
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 Removing entry Controlled_Lab_Printer_172_21_0_3 (ipp://172.21.0.3:8631/printers/lab) and its CUPS queue.
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 Recording printer options for Controlled_Lab_Printer_172_21_0_3 to /var/cache/cups/cups-browsed-options-Controlled_Lab_Printer_172_21_0_3
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 Recording option settings of the PPD file for Controlled_Lab_Printer_172_21_0_3 (Cluster Controlled_Lab_Printer_172_21_0_3, driverless, 2.1b1):
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    ColorModel=RGB
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    Duplex=None
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    PageSize=Letter
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 Recording option settings from the IPP attributes for Controlled_Lab_Printer_172_21_0_3:
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    printer-error-policy=stop-printer
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    printer-is-accepting-jobs=true
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    printer-is-shared=false
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    printer-op-policy=default
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    printer-state-reasons=none
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    printer-location=Lab
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    printer-geo-location=unknown
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    printer-info=Controlled Lab Printer
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    job-quota-period=0
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    job-k-limit=0
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312    job-page-limit=0
+cups-1  | Sat Nov 14 17:56:09 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://localhost/printers/Controlled_Lab_Printer_172_21_0_3
+cups-1  | Sat Nov 14 17:56:09 2026 Full list of all IPP attributes:
+cups-1  | Sat Nov 14 17:56:09 2026   Attr: attributes-charset
+cups-1  | Sat Nov 14 17:56:09 2026   Value: utf-8
+cups-1  | Sat Nov 14 17:56:09 2026   Keyword: utf-8
+cups-1  | Sat Nov 14 17:56:09 2026   Attr: attributes-natural-language
+cups-1  | Sat Nov 14 17:56:09 2026   Value: en-us
+cups-1  | Sat Nov 14 17:56:09 2026   Keyword: en-us
+cups-1  | Sat Nov 14 17:56:09 2026   Attr: printer-uri-supported
+cups-1  | Sat Nov 14 17:56:09 2026   Value: ipp://localhost/printers/Controlled_Lab_Printer_172_21_0_3
+cups-1  | Sat Nov 14 17:56:09 2026   Keyword: ipp://localhost/printers/Controlled_Lab_Printer_172_21_0_3
+cups-1  | Sat Nov 14 17:56:09 2026   Attr: printer-name
+cups-1  | Sat Nov 14 17:56:09 2026   Value: Controlled_Lab_Printer_172_21_0_3
+cups-1  | Sat Nov 14 17:56:09 2026   Keyword: Controlled_Lab_Printer_172_21_0_3
+cups-1  | Sat Nov 14 17:56:09 2026   Attr: device-uri
+cups-1  | Sat Nov 14 17:56:09 2026   Value: implicitclass://Controlled_Lab_Printer_172_21_0_3/
+cups-1  | Sat Nov 14 17:56:09 2026   Keyword: implicitclass://Controlled_Lab_Printer_172_21_0_3/
+cups-1  | Sat Nov 14 17:56:09 2026   Attr: printer-make-and-model
+cups-1  | Sat Nov 14 17:56:09 2026   Value: Cluster Controlled_Lab_Printer_172_21_0_3, driverless, 2.1b1
+cups-1  | Sat Nov 14 17:56:09 2026   Keyword: Cluster Controlled_Lab_Printer_172_21_0_3, driverless, 2.1b1
+cups-1  | Sat Nov 14 17:56:09 2026 
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 Printer Controlled_Lab_Printer_172_21_0_3 got modified externally, discovered by the NickName of its PPD file having changed from "h2g2bob's ipp-printer.py 0.00, driverless, 2.1b1" to "Cluster Controlled_Lab_Printer_172_21_0_3, driverless, 2.1b1".
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 Removing entry Controlled_Lab_Printer_172_21_0_3 (ipp://172.21.0.3:8631/printers/lab_variant).
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 === Remote printer overview ===
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 ===============================
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Cancel-Subscription
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 free_local_printer() in THREAD 140737439853312
+cups-1  | Removing stale PID file /var/run/dbus/pid..
+cups-1  | Starting system message bus: dbus.
+cups-1  | Sat Nov 14 17:56:09 2026 140737439853312 Reading command line option --debug, turning on debug mode (Log on standard error).
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 cups-browsed version 2.0.1 starting.
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Reading config: BrowseRemoteProtocols none
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 No "Browse..." line at all, accept all servers ("BrowseOrder Deny,Allow").
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 main() in THREAD 140737439853312
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 cups-browsed: Creating http connection to local CUPS daemon via domain socket: /run/cups/cups.sock
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 update_netifs() in THREAD 140737439853312
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.21.0.2, c3cc51a11a58, 172.21.0.2*), lo (::1)
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Create-Subscription
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: subscription ID=3
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 cups-browsed (): cupsEnumDests
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Printer Controlled_Lab_Printer_172_21_0_3: implicitclass://Controlled_Lab_Printer_172_21_0_3/, 4d7988e0-3f6c-3ea8-5461-c67e7fba9e7c, cups_browsed
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Could not determine system default printer!
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 find_previous_queue() in THREAD 140737439853312
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 === Remote printer overview ===
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 ===============================
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 === Remote printer overview ===
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Printer  (, ): Local queue controlled_lab_printer_172_21_0_3, Remote CUPS Printer, Slave of None (To be created/updated)
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 ===============================
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Found CUPS queue controlled_lab_printer_172_21_0_3 (URI: ) from previous session.
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Using signal handler SIGACTION
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 nothing left to do
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 update_cups_queues() in THREAD 140737471985120
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Processing printer list ...
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 === Remote printer overview ===
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Printer  (, ): Local queue controlled_lab_printer_172_21_0_3, Remote CUPS Printer, Slave of None (Disappeared)
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 ===============================
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Removing entry controlled_lab_printer_172_21_0_3 () and its CUPS queue.
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Recording printer options for controlled_lab_printer_172_21_0_3 to /var/cache/cups/cups-browsed-options-controlled_lab_printer_172_21_0_3
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Recording option settings from the IPP attributes for controlled_lab_printer_172_21_0_3:
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312    printer-error-policy=stop-printer
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312    printer-is-accepting-jobs=true
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312    printer-is-shared=false
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312    printer-op-policy=default
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312    printer-state-reasons=none
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312    printer-location=Lab
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312    printer-geo-location=unknown
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312    printer-info=Controlled Lab Printer
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312    job-quota-period=0
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312    job-k-limit=0
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312    job-page-limit=0
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Could not determine system default printer!
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Removing local CUPS queue controlled_lab_printer_172_21_0_3 ().
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 Print queue update 1 of this series: controlled_lab_printer_172_21_0_3
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 === Remote printer overview ===
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 ===============================
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Cancel-Subscription
+cups-1  | Sat Nov 14 17:56:10 2026 140737439853312 free_local_printer() in THREAD 140737439853312

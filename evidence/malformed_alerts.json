@@ -1,0 +1,10 @@
+[
+    {
+        "packet": 1,
+        "severity": "WARNING",
+        "type": "Malformed printer advertisement",
+        "source": "172.21.0.3",
+        "destination": "172.21.0.2",
+        "details": "Unexpected CUPS browse packet format"
+    }
+]

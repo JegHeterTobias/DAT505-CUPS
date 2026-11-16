@@ -1,0 +1,26 @@
+[
+    {
+        "packet": 1,
+        "severity": "INFO",
+        "type": "Advertised IPP printer",
+        "source": "172.21.0.3",
+        "destination": "172.21.0.2",
+        "details": "Printer URI: ipp://172.21.0.3:8631/printers/lab"
+    },
+    {
+        "packet": 2,
+        "severity": "INFO",
+        "type": "IPP connection attempt",
+        "source": "172.21.0.2",
+        "destination": "172.21.0.3",
+        "details": "New TCP connection attempt to IPP port 8631"
+    },
+    {
+        "packet": 16,
+        "severity": "INFO",
+        "type": "IPP connection attempt",
+        "source": "172.21.0.2",
+        "destination": "172.21.0.3",
+        "details": "New TCP connection attempt to IPP port 8631"
+    }
+]
